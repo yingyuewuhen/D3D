@@ -1,0 +1,50 @@
+﻿生成启动时间为 2016/7/23 19:29:24。
+     1>项目“C:\Users\tjuls\Desktop\Terrain\Terrain\Terrain.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(209): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(222): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>main.cpp(376): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(379): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(382): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(385): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>main.cpp(423): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(430): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(431): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(433): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tjuls\Desktop\Terrain\Release\Terrain.exe" /INCREMENTAL:NO /NOLOGO d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tjuls\Desktop\Terrain\Release\Terrain.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tjuls\Desktop\Terrain\Release\Terrain.lib" /MACHINE:X86 /SAFESEH Release\BillBoard.obj
+         Release\camera.obj
+         Release\CImage.obj
+         Release\Convert.obj
+         Release\CPlantBoard.obj
+         Release\CPlantCollect.obj
+         Release\CTexture2D.obj
+         Release\CWater.obj
+         Release\D3DEffect.obj
+         Release\Emitter.obj
+         Release\geomipmapping.obj
+         Release\InfTerrain.obj
+         Release\LensFlare.obj
+         Release\main.obj
+         Release\math.obj
+         Release\mouse.obj
+         Release\QuadTree.obj
+         Release\rain.obj
+         Release\skyBox.obj
+         Release\snowParticle.obj
+         Release\SpriteBatch.obj
+         Release\terrain.obj
+         Release\water.obj
+         正在生成代码
+     1>c:\users\tjuls\desktop\terrain\terrain\water.cpp(97): warning C4715: “Water::Init”: 不是所有的控件路径都返回值
+     1>c:\users\tjuls\desktop\terrain\terrain\terrain.cpp(655): warning C4715: “CTerrain::ImageToTexture”: 不是所有的控件路径都返回值
+     1>c:\users\tjuls\desktop\terrain\terrain\billboard.cpp(100): warning C4715: “BillBoard::Init”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Terrain.vcxproj -> C:\Users\tjuls\Desktop\Terrain\Release\Terrain.exe
+     1>已完成生成项目“C:\Users\tjuls\Desktop\Terrain\Terrain\Terrain.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.34

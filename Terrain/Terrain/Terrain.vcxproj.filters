@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Particle">
+      <UniqueIdentifier>{ef6afd8f-9066-4684-9f2c-6696e1bc0be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Particle">
+      <UniqueIdentifier>{0544df51-b0eb-4f90-98b7-2347ba59c44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Water">
+      <UniqueIdentifier>{f33b1b8e-c1c2-445b-b219-d3b7fff7c5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Water">
+      <UniqueIdentifier>{66205d8d-4267-4b2d-bff2-37b3dd9345dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Terrain">
+      <UniqueIdentifier>{e3ad2711-09bf-4ecd-bdae-e26969392823}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="skyBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="geomipmapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BillBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particleSystem.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="EmitterConfig.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleConfig.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="resourse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowParticle.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>头文件\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CWater.h">
+      <Filter>头文件\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlantBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlantCollect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LensFlare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InfTerrain.h">
+      <Filter>头文件\Terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skyBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="geomipmapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BillBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>源文件\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="snowParticle.cpp">
+      <Filter>源文件\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlantBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlantCollect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWater.cpp">
+      <Filter>源文件\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LensFlare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InfTerrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
